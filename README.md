@@ -19,8 +19,10 @@ ID: Matches the IDs in mapping.json.
 Number: Question sequence in the video.  
 Answers can be obtained using tools like yt-dlp to extract relevant data from YouTube.
 ### Keyword
-- `keyword.csv` This file provides keywords associated with each QA pair:  
-  Type:   Identifies whether the keyword is:  
+- `keyword.csv` This file provides keywords associated with each QA pair:
+  ID: Matches the IDs in mapping.json.  
+  Number: Question sequence in the video.  
+  Type: Identifies whether the keyword is:  
   - Extracted directly from the question.  
   - Derived from the answer.  
 
