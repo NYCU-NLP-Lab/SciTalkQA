@@ -27,4 +27,4 @@ Answers can be obtained using tools yt-dlp https://github.com/yt-dlp/yt-dlp to e
   - Extracted directly from the question.  
   - Derived from the answer.  
 
-  Titles: Lists the extracted keywords.  
+  Keyword: Lists the extracted keywords.  
