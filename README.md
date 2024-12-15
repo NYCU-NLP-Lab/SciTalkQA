@@ -18,7 +18,7 @@ Contains questions asked by the audience during the QA sessions. Key columns:
 ID: Matches the IDs in mapping.json.  
 Number: Question sequence in the video.  
 Content: Audience questions.  
-Answers can be obtained using tools yt-dlp https://github.com/yt-dlp/yt-dlp to extract relevant data from YouTube.
+Answers can be obtained using tools [`yt-dlp`](https://github.com/yt-dlp/yt-dlp) to extract relevant data from YouTube.
 ### Prompts for extracing keyword
     prompt_request =  (
         "Please list the Wikipedia pages that support the answer to the given question "
@@ -36,7 +36,8 @@ Answers can be obtained using tools yt-dlp https://github.com/yt-dlp/yt-dlp to e
         "2. Page Title + URL\n"
         "..."
     )
-  Page Title is keyword
+[`Wikipedia API`](https://en.wikipedia.org/w/api.php) is used to validate and link each Page Title to an existing Wikipedia page.  
+The top result from the API query is selected as the keyword.
 ### Keyword
 - `keyword.csv` This file provides keywords associated with each QA pair:  
   ID: Matches the IDs in mapping.json.  
