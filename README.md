@@ -7,19 +7,20 @@ The SciTalkQA dataset is derived from transcripts of YouTube videos. Each speech
 ## Usage
 ### Information
 - `mapping.json` This file provides metadata for the dataset, including:  
-ID: Unique identifier for each video, used across the dataset.
+ID: Unique identifier for each video, used across the dataset.  
 Speech Title: The title of the speech video.  
-Subject: The YouTube channel or thematic domain of the video.  
+Subject: The thematic domain of the video.  
 UID: The YouTube video identifier, enabling access to the video.   
-Corresponding Q&A videos can be accessed via links in the video description.
+Corresponding Q&A video can be accessed via links in the video description.
 ### Question
 - `question.csv`
 Contains questions asked by the audience during the QA sessions. Key columns:   
 ID: Matches the IDs in mapping.json.  
 Number: Question sequence in the video.  
-Answers can be obtained using tools like yt-dlp to extract relevant data from YouTube.
+Content: Audience questions.  
+Answers can be obtained using tools yt-dlp https://github.com/yt-dlp/yt-dlp to extract relevant data from YouTube.
 ### Keyword
-- `keyword.csv` This file provides keywords associated with each QA pair:
+- `keyword.csv` This file provides keywords associated with each QA pair:  
   ID: Matches the IDs in mapping.json.  
   Number: Question sequence in the video.  
   Type: Identifies whether the keyword is:  
