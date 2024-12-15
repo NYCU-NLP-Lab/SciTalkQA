@@ -20,9 +20,8 @@ Number: Question sequence in the video.
 Answers can be obtained using tools like yt-dlp to extract relevant data from YouTube.
 ### Keyword
 - `keyword.csv` This file provides keywords associated with each QA pair:  
-Type: Identifies whether the keyword is:
-  - Extracted directly from the question.
+  Type:   Identifies whether the keyword is:  
+  - Extracted directly from the question.  
   - Derived from the answer.  
-Titles: Lists the extracted keywords.  
 
-
+  Titles: Lists the extracted keywords.  
