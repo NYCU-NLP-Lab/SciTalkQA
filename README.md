@@ -8,7 +8,7 @@ The SciTalkQA dataset is derived from transcripts of YouTube videos. Each talk, 
 ### Information
 - `mapping.json` This file provides metadata for the dataset, including:  
 ID: Unique identifier for each video, used across the dataset.  
-Speech Title: The title of the speech video.  
+Talk Title: The title of the Talk video.  
 Subject: The thematic domain of the video.  
 UID: The YouTube video identifier, enabling access to the video.   
 Corresponding Q&A video can be accessed via links in the video description.
