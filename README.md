@@ -4,7 +4,7 @@
 The SciTalkQA dataset is derived from transcripts of YouTube videos. Each talk, presented by a specialist in the respective field, has a corresponding QA session. This dataset is designed for open-ended question-answering tasks, covering various domains: society, biology, black holes, brain, chemistry, compute, discourses, math, medicine, and physics. It includes 2,330 audience questions, each containing explicit keywords (directly extracted from the question) and implicit keywords (derived from the answer).
 
 
-## Usage
+## Data 
 ### Information
 - `mapping.json` This file provides metadata for the dataset, including:  
 ID: Unique identifier for each video, used across the dataset.  
@@ -31,3 +31,6 @@ The top result from the API query is selected as the keyword.
   - Implicit: Derived from the answer.  
 
   Keyword: Lists the identified keywords.  
+
+## Prompting
+Different prompting use for data construction and experiments are in `Prompting` dir.
