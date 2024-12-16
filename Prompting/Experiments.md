@@ -112,10 +112,11 @@
     1. Questions from the Audience: Start by considering the specific questions raised by the audience. What are they asking? Identifying the exact questions will guide the response process.
     2. Speech: Next, reflect on the speech content that the audience has just listened to. It's crucial to connect the questions to the content of the speech since it may contain pertinent information that could help answer these questions.
     3. Keywords: Then, extract key terms from both the questions and the speech. These keywords act as a bridge, linking the audience's inquiries with the relevant sections of the speech. They are instrumental in honing in on the parts of the speech that are most relevant to the questions asked.
-    4. Wikipedia References: Finally, to provide thorough and well-supported answers, consult relevant Wikipedia pages. These references can offer deeper or more detailed information that supports the answers derived from the speech and identified keywords.
+    4. Wikipedia References: Finally, to provide thorough and well-supported answers, consult relevant Wikipedia pages. These references can offer deeper or more detailed information that supports the answers derived from the speech and identified keywords.)
     """
+
     
-    message_content = """Armed with a summary of the speech, the specific questions from the audience, key terms, and Wikipedia references, assume the role of the speaker to answer the questions. 
+    system_message_content = ("""Armed with a summary of the speech, the specific questions from the audience, key terms, and Wikipedia references, assume the role of the speaker to answer the questions. 
     Your goal is to provide informative and helpful answers that directly address the audience's questions while staying connected to your original speech content.""")
 
 ### Speech Only  
