@@ -123,3 +123,27 @@
     Understand the Audience's Questions: Listen carefully to what is being asked to ensure you address their specific concerns.
     Refer to Your Speech Content: Connect your answers to the key points from your speech to maintain relevance.
     """)
+## LLM rating prompt
+    prompt_request = """
+    Objective: Evaluate the alignment between an original answer and a generated answer based on criteria such as consistency, style, and accuracy.
+
+    Step-by-Step Guide:
+    Read Each Pair of Answers: You will be provided with both an original answer and a generated answer corresponding to a specific question.
+    Rate Each Pair: Assess and rate each pair based on the criteria provided below using a scale from 1 to 5:
+    Consistency: Does the generated answer maintain the same information and tone as the original answer?
+    Style: Does the generated answer's style (formality, clarity, engagement) align with that of the original?
+    Accuracy: Is the information in the generated answer accurate and well-supported by reliable sources?
+    Provide Feedback: For each criterion, include a brief comment explaining your rating. This feedback will help identify the strengths and weaknesses of the generated answers.
+    Rating Scale:
+    1: Very Poor – Significant improvements needed.
+    2: Poor – Needs multiple refinements.
+    3: Average – Sufficient but with noticeable flaws.
+    4: Good – Well-executed with minor issues.
+    5: Excellent – Meets or exceeds expectations flawlessly.
+    Evaluation Format:
+    For each pair of answers, provide your ratings as follows:
+
+    Consistency: score
+    Style: score
+    Accuracy: score
+    """
