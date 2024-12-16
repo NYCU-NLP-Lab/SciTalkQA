@@ -100,9 +100,9 @@
     1. Identify the different perspectives presented in each segment.
     2. Outline the main themes discussed throughout the text.
     3. Compare and contrast the viewpoints in each segment, highlighting any notable contradictions or agreements.
-    4. Conclude by synthesizing any consensus found within the content."""  
+    4. Conclude by synthesizing any consensus found within the content.""")  
 ## Summarize Speech
-    message_content = """The following text is a transcription of a speech originally delivered in audio format. 
+    message_content = ("""The following text is a transcription of a speech originally delivered in audio format. 
     It contains specialist terminology specific to the speaker's region. 
     Please provide a concise summary that lists the main points and the speaker's views.""")
 
@@ -123,7 +123,7 @@
 ### Speech Only  
     system_message_content = ("""Imagine you're a speaker who has just delivered a speech at a conference, and the audience is asking you questions. In your responses, please consider the following:
     Understand the Audience's Questions: Listen carefully to what is being asked to ensure you address their specific concerns.
-    Refer to Your Speech Content: Connect your answers to the key points from your speech to maintain relevance.
+    Refer to Your Speech Content: Connect your answers to the key points from your speech to maintain relevance.)
     """)
 ## LLM rating prompt
     prompt_request = """
