@@ -1,7 +1,7 @@
 # SciTalkQA Dataset
 ## Introduction
 
-The SciTalkQA dataset is derived from transcripts of YouTube videos. Each speech video, presented by a specialist in the respective field, has a corresponding QA video. This dataset is designed for open-ended question-answering tasks, covering various domains such as math, biology, chemistry, and more. It includes 2,330 audience questions, each containing explicit keywords (directly extracted from the question) and implicit keywords (derived from the answer).
+The SciTalkQA dataset is derived from transcripts of YouTube videos. Each talk, presented by a specialist in the respective field, has a corresponding QA session. This dataset is designed for open-ended question-answering tasks, covering various domains such as math, biology, chemistry, and more. It includes 2,330 audience questions, each containing explicit keywords (directly extracted from the question) and implicit keywords (derived from the answer).
 
 
 ## Usage
@@ -19,7 +19,7 @@ ID: Matches the IDs in mapping.json.
 Number: Question sequence in the video.  
 Content: Audience questions.  
 Answers can be obtained using tools [`yt-dlp`](https://github.com/yt-dlp/yt-dlp) to extract relevant data from YouTube.
-### Prompts for extracing keyword
+### Prompts for identifying keyword
     prompt_request =  (
         "Please list the Wikipedia pages that support the answer to the given question "
         "and its corresponding answer. Divide the pages based on where the keywords come from: "
@@ -46,4 +46,4 @@ The top result from the API query is selected as the keyword.
   - Extracted directly from the question.  
   - Derived from the answer.  
 
-  Keyword: Lists the extracted keywords.  
+  Keyword: Lists the identified keywords.  
