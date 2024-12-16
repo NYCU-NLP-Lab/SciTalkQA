@@ -1,7 +1,7 @@
 # SciTalkQA Dataset
 ## Introduction
 
-The SciTalkQA dataset is derived from transcripts of YouTube videos. Each talk, presented by a specialist in the respective field, has a corresponding QA session. This dataset is designed for open-ended question-answering tasks, covering various domains such as math, biology, chemistry, and more. It includes 2,330 audience questions, each containing explicit keywords (directly extracted from the question) and implicit keywords (derived from the answer).
+The SciTalkQA dataset is derived from transcripts of YouTube videos. Each talk, presented by a specialist in the respective field, has a corresponding QA session. This dataset is designed for open-ended question-answering tasks, covering various domains: society, biology, black holes, brain, chemistry, compute, discourses, math, medicine, and physics. It includes 2,330 audience questions, each containing explicit keywords (directly extracted from the question) and implicit keywords (derived from the answer).
 
 
 ## Usage
