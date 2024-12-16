@@ -19,23 +19,7 @@ ID: Matches the IDs in mapping.json.
 Number: Question sequence in the QA session. 
 Content: Audience questions.  
 Answers can be obtained using tools [`yt-dlp`](https://github.com/yt-dlp/yt-dlp) to extract relevant data from YouTube.
-### Prompts for identifying keyword
-    prompt_request =  (
-        "Please list the Wikipedia pages that support the answer to the given question "
-        "and its corresponding answer. Divide the pages based on where the keywords come from: "
-        "if the keyword is from the question, list it under 'From question'; "
-        "if it is only present in the answer and not in the question, list it under 'From answer'. "
-        "Format your response as follows:\n"
-        "Here are the Wikipedia pages that support the answer:\n"
-        "From question:\n"
-        "1. Page Title + URL\n"
-        "2. Page Title + URL\n"
-        "...\n"
-        "From answer:\n"
-        "1. Page Title + URL\n"
-        "2. Page Title + URL\n"
-        "..."
-    )
+
 [`Wikipedia API`](https://en.wikipedia.org/w/api.php) is used to validate and link each Page Title to an existing Wikipedia page.  
 The top result from the API query is selected as the keyword.
 ### Keyword
