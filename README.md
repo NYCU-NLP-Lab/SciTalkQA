@@ -5,6 +5,7 @@ The SciTalkQA dataset is derived from transcripts of YouTube videos. Each talk, 
 
 
 ## Data 
+Detailed data in [data](./data)
 ### Information
 - `mapping.json` This file provides metadata for the dataset, including:  
 ID: Unique identifier for each video, used across the dataset.  
@@ -33,4 +34,4 @@ The top result from the API query is selected as the keyword.
   Keyword: Lists the identified keywords.  
 
 ## Prompting
-Different prompting use for data construction and experiments are in `Prompting` dir.
+Different prompting use for data construction and experiments are in [Prompting](./Prompting) dir.
