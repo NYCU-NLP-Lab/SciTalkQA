@@ -16,7 +16,7 @@ Corresponding Q&A video can be accessed via links in the video description.
 - `question.csv`
 Contains questions asked by the audience during the QA sessions. Key columns:   
 ID: Matches the IDs in mapping.json.  
-Number: Question sequence in the video.  
+Number: Question sequence in the QA session. 
 Content: Audience questions.  
 Answers can be obtained using tools [`yt-dlp`](https://github.com/yt-dlp/yt-dlp) to extract relevant data from YouTube.
 ### Prompts for identifying keyword
@@ -41,9 +41,9 @@ The top result from the API query is selected as the keyword.
 ### Keyword
 - `keyword.csv` This file provides keywords associated with each QA pair:  
   ID: Matches the IDs in mapping.json.  
-  Number: Question sequence in the video.  
+  Number: Question sequence in the QA session (i.e., $n$-th question in the session).  
   Type: Identifies whether the keyword is:  
-  - Extracted directly from the question.  
-  - Derived from the answer.  
+  - Explicit: Extracted directly from the question.  
+  - Implicit: Derived from the answer.  
 
   Keyword: Lists the identified keywords.  
