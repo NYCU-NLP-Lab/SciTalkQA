@@ -34,4 +34,7 @@ The top result from the API query is selected as the keyword.
   Keyword: Lists the identified keywords.  
 
 ## Prompting  
-Different prompting use for data construction and experiments are in [Prompting](./Prompting) dir.
+Different prompting use for data construction and experiments are in [Prompting](./Prompting) dir.  
+## Notice  
+To respect intellectual property rights, we will not release the actual speech content, only the video IDs.  
+Additionally, we only provide audience questions to ensure that, after independently retrieving transcripts, our annotated data (keywords) can be effectively aligned.
